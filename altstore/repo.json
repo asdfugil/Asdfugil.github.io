@@ -8,7 +8,7 @@
             "bundleIdentifier": "com.rileytestut.AltBackup",
             "subtitle":"Backup sideloaded apps on iOS 13.5.",
             "developerName": "Riley Testut",
-            "version": "1.0.0",
+            "version": "1.0",
             "versionDate": "2020-05-20T10:00:00-07:00",
             "versionDescription": "Used in AltStore when deactivating apps on > iOS 13.4.1",
             "tintColor": "018084",
