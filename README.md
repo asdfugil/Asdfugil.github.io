@@ -1,5 +1,5 @@
-# Assfugil.github.io
-https://assfugil.github.io
+# Asdfugil.github.io
+https://asdfugil.github.io
 
 Click on the platelet to poke it! Click a few more times for more sound effects.
 
