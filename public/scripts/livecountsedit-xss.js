@@ -1,4 +1,4 @@
-document.getElementByID("name").innerHTML = "HACKED! :))))"
+document.getElementById("name").innerHTML = "HACKED! :))))"
 alert("This is an XSS Payload")
 alert("lmao")
 alert('You will be redirected to anime earrape in 5 seconds')
