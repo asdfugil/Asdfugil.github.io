@@ -22,3 +22,7 @@ body {
 
     object-fit: cover;
 }
+
+h1 {
+   padding-left: 30px;
+}
