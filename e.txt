@@ -1,4 +1,47 @@
-<!DOCTYPE html>
+* {
+    font-family: monospace
+}
+
+.dark-mode {
+    background-color: black;
+    filter: invert(100%)
+}
+
+#dark-mode-button {
+    float: right;
+    background-color: #000000;
+    color: #ffffff;
+    border: 2px solid currentColor;
+    border-radius: .5em;
+    cursor: pointer;
+    font-size: inherit;
+    line-height: 1.4em;
+    padding: 0.25em 1em;
+    max-width: 40ch;
+    display: inline;
+    margin: 5px
+}
+h1 {
+    padding-left: 30px;
+ }
+ 
+h2,h3 {
+     padding-left: 40px;
+ }
+ 
+.unsponsored-links, .socials {
+     list-style:none;
+     padding-left: 40px;
+ }
+ 
+.stuff-description {
+     padding-left: 50px;
+ }
+ 
+footer {
+     color:#444444;
+     padding-left: 10px
+ }<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -43,11 +86,25 @@
     <h2>Socials</h2>
     <ul class="socials">
         <li><a href="https://discord.gg/uzvHwQv">Discord</a></li>
-        <li></li>
     </ul>
+    <br />
     <hr />
     <footer>This site is not  affiliated, associated, authorized, endorsed by, or in any way officially connected with Livecountsedit, Diatrus, RandomPerson3465 or platelets.fun or any of their subsidiaries or their affiliates.</footer>
     <script src="./public/scripts/r244.js"></script>
 </body>
 
-</html>
+</html>window.addEventListener('DOMContentLoaded',function() {
+    if (localStorage.getItem("dark_mode") === "true") {
+        document.body.classList.toggle('dark-mode')
+    }
+})
+function darkmode() {
+    document.body.classList.toggle('dark-mode')
+    localStorage.setItem("dark_mode",document.body.classList.contains("dark-mode").toString())
+}const urlParams = new URLSearchParams(window.location.search)
+if (urlParams.get('rp') === '1') {
+    const r244elements = document.getElementsByClassName('rp-hated')
+    for (let i = 0; i < r244elements.length; i++) {
+        r244elements[i].style.display = 'none'
+    }
+}
