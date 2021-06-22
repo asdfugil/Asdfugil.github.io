@@ -30,7 +30,7 @@ h2,h3 {
  }
  
 .unsponsored-links, .socials {
-     list-style:none;
+     list-style-type: none;
      padding-left: 40px;
  }
  
