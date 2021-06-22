@@ -2,24 +2,43 @@
     font-family: monospace
 }
 
+.dark-mode {
+    background-color: black;
+    filter:invert(100%)
+}
+
+#dark-mode-button {
+    float: right;
+    background-color: #000000;
+    color: #ffffff;
+    border: 2px solid currentColor;
+    border-radius: .5em;
+    cursor: pointer;
+    font-size: inherit;
+    line-height: 1.4em;
+    padding: 0.25em 1em;
+    max-width: 40ch;
+    display: inline;
+    margin: 5px
+}
 h1 {
     padding-left: 30px;
  }
  
- h2,h3 {
+h2,h3 {
      padding-left: 40px;
  }
  
- .unsponsored-links, .socials {
+.unsponsored-links, .socials {
      list-style:none;
      padding-left: 40px;
  }
  
- .stuff-description {
+.stuff-description {
      padding-left: 50px;
  }
  
- footer {
+footer {
      color:#444444;
      padding-left: 10px
  }
