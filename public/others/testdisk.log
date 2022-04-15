@@ -1,0 +1,44 @@
+Sun Jan 30 14:32:31 2022
+Command line: TestDisk
+
+TestDisk 7.2-WIP, Data Recovery Utility, September 2021
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Darwin, kernel 20.2.0 (Darwin Kernel Version 20.2.0: Fri Nov 13 01:00:11 PST 2020; root:xnu-7195.62.1~4/RELEASE_ARM64_S8000) iPad6,3
+Compiler: GCC 4.2
+ext2fs lib: none, ntfs lib: none, reiserfs lib: none, ewf lib: none, curses lib: ncurses 6.2
+Warning: can't get size for Disk /dev/rdisk0 - 0 B - 0 sectors (RO), sector size=512
+Warning: can't get size for Disk /dev/rdisk1 - 0 B - 0 sectors, sector size=512
+Hard disk list
+Disk /dev/disk0 - 32 GB / 29 GiB - 62500000 sectors (RO), sector size=512
+Disk /dev/disk1 - 8388 KB / 8192 KiB - 16384 sectors, sector size=512
+Disk /dev/rdisk2 - 774 KB / 756 KiB - 1513 sectors, sector size=512
+Disk /dev/rdisk3 - 67 MB / 64 MiB - 131072 sectors (RO), sector size=512
+Disk /dev/rdisk4 - 67 MB / 64 MiB - 131072 sectors (RO), sector size=512
+
+Partition table type (auto): Intel
+Media is opened in read-only.
+Disk /dev/disk0 - 32 GB / 29 GiB (RO)
+Partition table type: EFI GPT
+
+Analyse Disk /dev/disk0 - 32 GB / 29 GiB - 62500000 sectors (RO)
+Bad GPT partition, invalid signature.
+Trying alternate GPT
+Bad GPT partition, invalid signature.
+Current partition structure:
+Bad GPT partition, invalid signature.
+Trying alternate GPT
+Bad GPT partition, invalid signature.
+
+search_part()
+Disk /dev/disk0 - 32 GB / 29 GiB - 62500000 sectors (RO)
+
+recover_APFS: s_blocksize=0
+recover_APFS: s_blocks_count 7812489
+recover_APFS: part_size 62499912
+     Apple APFS                    48   62499959   62499912
+
+Results
+   P Apple APFS                    48   62499959   62499912
+SIGINT detected! PhotoRec has been killed.
+SIGINT detected! PhotoRec has been killed.
