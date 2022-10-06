@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>assets</key>
+			<array>
+				<dict>
+					<key>kind</key>
+					<string>software-package</string>
+					<key>url</key>
+					<string>https://cdn.discordapp.com/attachments/672628720497852459/1027595676630122567/Wikipedia.ipa</string>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>display-image</string>
+					<key>url</key>
+					<string>https://cdn.discordapp.com/attachments/672628720497852459/1027596762216661142/CB0C3D15-E17D-4B10-9DFA-4DF50B85EC55-14086-00000C75C868FDD9.JPG</string>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>full-size-image</string>
+					<key>url</key>
+					<string>https://cdn.discordapp.com/attachments/672628720497852459/1027596762216661142/CB0C3D15-E17D-4B10-9DFA-4DF50B85EC55-14086-00000C75C868FDD9.JPG</string>
+				</dict>
+			</array>
+			<key>metadata</key>
+			<dict>
+				<key>bundle-identifier</key>
+				<string>org.wikimedia.wikipedia</string>
+				<key>bundle-version</key>
+				<string>1</string>
+				<key>kind</key>
+				<string>software</string>
+				<key>title</key>
+				<string>Wikipedia</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
